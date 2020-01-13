@@ -1,0 +1,188 @@
+.dropdown:hover .dropdown-menu
+{
+  display: block;     
+}
+.btnround
+{
+  border-radius: 50px !important;
+  padding: 2% !important;
+  width: 38% !important;
+}
+.card-img-top{
+  height: 250px !important;
+}
+
+body
+{
+  background-color: lavender !important;  
+}
+#navigation_btn_id
+{
+  border-radius: 20px !important;
+}
+.carousel-caption h3
+{
+  font-size:6vw !important; 
+  vertical-align:text-top !important;
+}
+.card .card-img-top
+{
+  transition: transform .4s ease !important;
+}
+.card
+{
+  overflow: hidden;
+}
+.card:hover .card-img-top
+{
+  transform: scale(1.2);
+}
+.carousel img
+{
+  height: 720px !important;
+}
+.nav-item a
+{
+  text-decoration: none !important;
+}
+.footer
+{
+  font-family: Trebuchet MS;
+}
+.footer ul 
+{
+  list-style: none;
+}
+.footer ul li a
+{
+  text-decoration-line: none;
+  text-decoration: none !important;
+}
+textarea
+{
+  resize: none !important;
+}
+#login_div_1 img
+{
+  box-sizing: inherit;
+}
+.row form input[type=text],.row form input[type=password]
+{
+  border-radius: 5rem !important;
+  height: 4rem !important;
+  font-size: 20px;
+}
+.row form input[type=submit]
+{
+  border-radius: 5rem !important;
+  width: 10rem;
+  height: 3rem !important;
+}
+.row form label
+{
+  font-size: 20px;
+}
+.border-primary
+{
+  margin: auto;
+  width: 350px;
+  border: 1px rgb(0, 0, 0) !important;
+  padding: 0;
+}
+form input[type=text],form input[type=password],form select[name="country"], form select option
+{
+  border-radius: 2rem !important;
+}
+form input,form select
+{
+  font-size: 18px !important; 
+  height: 50px !important;
+}
+form label
+{
+  font-size: 15px !important;
+}
+form input[id=code]
+{
+  width: 5rem !important;
+}
+form input[id=phone_no]
+{
+  width: 16rem !important;
+}
+form input[type=submit]
+{
+  border-radius: 5rem;
+}
+
+
+
+#title_id{
+  width: 100% !important;
+  box-sizing: inherit !important;
+  border: 2px solid #aaa !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom-color: lightslategrey !important;
+  padding-left: 20px !important;
+  font-size: 30px !important;
+  padding: 40px;
+  border-radius: 4px !important;
+  background-color:#E5E8E8;
+  margin-top: 5px;
+  margin-bottom: 45px;
+}
+#title_id:focus{
+  border-color: dodgerblue !important;
+  box-shadow: 0 0 0 150px 0 dodgerblue !important;
+}
+#title_id:hover{
+  background-color: lightgrey;
+}
+#description_id{
+  width: 100% !important;
+  box-sizing: inherit !important;
+  border: 2px solid #aaa !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom-color: lightslategrey !important;
+  padding-left: 20px !important;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px !important;
+  background-color:#E5E8E8;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  resize: none;
+}
+#description_id:focus{
+  border-color: dodgerblue !important;
+  box-shadow: 0 0 0 150px 0 dodgerblue !important;
+}
+#description_id:hover{
+  background-color: lightgrey;
+}
+.btn-outline-dark{
+  border-radius: 7px !important;
+  font-size: 25px !important;
+  margin: 0 0 20px 0;
+  text-align: center !important;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width: 480px) 
+{
+  .card 
+  {
+    width: 350px !important;
+    margin:4px !important;
+  }
+  .card-img-top 
+  {
+    width: 100% !important;
+    height: 250px !important; 
+  }
+}
